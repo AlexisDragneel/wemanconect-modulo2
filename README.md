@@ -19,12 +19,17 @@ let resultado = rangoHasta(5);
 
 ### esPar(n)
 
-Escribir una funcion que dado un numero te regrese si es paro o no de manera booleana de ese numero
+Escribir una funcion que dado un numero te regrese si es paro o no de manera booleana de ese numero y todos los umeros anteriores a el hasta 0
 
 ### Ejemplo
 
 ```Javascript
-let resultado = rangoHasta(5);
+esPar(5);
 
-// resultado = [0, 1, 2, 3, 4, 5]
+// 5 - false
+// 4 - true
+// 3 - false
+// 2 - true
+// 1 - false
+// 0 - true
 ```
